@@ -748,7 +748,7 @@ function createTextRings() {
     ringGroup.userData = {
       ringRadius: ringRadius,
       angleOffset: 0.15 * Math.PI * 0.5,
-      speed: 0.0005 + 0.00005, // Tốc độ quay
+      speed: 0.00005 + 0.000005, // Tốc độ quay
       tiltSpeed: 0, rollSpeed: 0, pitchSpeed: 0, // Tốc độ lắc
       tiltAmplitude: Math.PI / 3, rollAmplitude: Math.PI / 6, pitchAmplitude: Math.PI / 8, // Biên độ lắc
       tiltPhase: Math.PI * 2, rollPhase: Math.PI * 2, pitchPhase: Math.PI * 2, // Pha lắc
